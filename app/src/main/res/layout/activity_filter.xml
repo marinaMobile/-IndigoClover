@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".black.Filter">
+    tools:context=".black.Filter"
+    android:background="#3490dc">
 
     <TextView
         android:id="@+id/txtMain"

@@ -20,11 +20,8 @@ class AppClass: Application() {
         super.onCreate()
         Hawk.init(this).build()
         // При необходимости, настройте конфигурацию трекера
-        val trackerParams = MyTracker.getTrackerParams()
         val trackerConfig = MyTracker.getTrackerConfig()
-//        trackerParams.customUserId = "user_id"
-        val userId = trackerParams.customUserId()
-        println(userId)
+
         trackerConfig.isTrackingLaunchEnabled = true
         MyTracker.initTracker("10083586393852631494", this)
 
